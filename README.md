@@ -1,12 +1,18 @@
 # meta-vue
 
+## Node Version
+```
+node -v
+v20.4.0
+```
 ## Project setup
 
 ```
 npm install
 ```
 
-Prettier , ESLint extensions 설치
+[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+ , [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) extensions 설치
 
 ### Compiles and hot-reloads for development
 
@@ -24,6 +30,7 @@ npm run build
 
 ```
 npm run lint
+npm run format
 ```
 
 ### Customize configuration

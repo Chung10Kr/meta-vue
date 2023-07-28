@@ -1,4 +1,11 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  transpileDependencies: true
+	transpileDependencies: true,
+	devServer: {
+		client: {
+			overlay: false,
+		},
+		// false : 오류를 더이상 화면에 표시하지 않음
+	},
+	publicPath: '',
 })
